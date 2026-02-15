@@ -8,6 +8,7 @@ Features
 Files Uploaded thus far
 Payroll Processing System in both Python and R
 Salary Function project
+Policy_Management_System
 
 Requirements
 Jupyter Notebook or JupyterLab
@@ -28,6 +29,21 @@ UnzipPipsalaryfunctionfolderinR\&displaydata.ipynb (R Kernel)
 README.md
 Employee Profile.zip/   # Python program output (CSV \&JSON files)
 Employee Profile Unzipped/   # R program output (unzipped folder)
+
+Folder Structure - Policy_Management_System
+System Architecture
+The project follows a layered structure:
+
+Policy_Management_System/
+|
+|____ policyholder.py
+|____ product.py
+|____ payment.py
+|____ display_utils.py
+|____ export_utils.py
+|____ notebook.ipynb
+|____ README.md
+unzip program using R program
 
 How to Run (Jupyter Notebook)
 This program was developed using Jupyter Notebooks.
@@ -52,6 +68,18 @@ Learning Outcome - Salary Function
 * Cross-language operations (Python vs R)
 * Working with Libraries, and Data Structures
 
+Final Putcome _Policy_ MAnagement _System
+Final Outcome
+The Policy Payment System is a  fully functional billing lifecycle application demonstrating:
+Object-Oriented Programming
+Clean Architecture
+Dynamic business rules
+UI-to-service separation
+Real-world invoice and  penalty handling
+
+It is a foundation for a production billing syste
 
 Output
-See respective folders for the different output of the uploaded files
+See attached Zip files for each of the outputs
+
+spective folders for the different output of the uploaded files
