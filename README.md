@@ -9,6 +9,7 @@ Files Uploaded thus far
 Payroll Processing System in both Python and R
 Salary Function project
 Policy_Management_System
+Netflix_Data_Visualization_Project
 
 Requirements
 Jupyter Notebook or JupyterLab
@@ -45,6 +46,31 @@ Policy_Management_System/
 |____ README.md
 unzip program using R program
 
+Folder Structure Netflix_Data_Visiaulization_Project
+Project/
+|
+|___ Notebook_01_Data_Ingestion.-filename Netflix_shows_movies_analytics_nb_1.ipynb
+|
+|___ Notebook_02_Cleaning_and_Feature Engineering.-filename Netflix_shows_movies_analytics_nb_2.ipynb
+|
+|____Notebook_03_EDA_and _Visualization.-filename Netflix_shows_movies_analytics_nb_3.ipynb
+|
+|____ Notebook_04.-filename Netflix_shows_movies_R_visuals.ipynb
+|
+|
+|____ data_raw/
+|
+|____ data_cleaned
+|
+|____ Data_engineered/
+|
+|____ Netflix_Figures/
+|
+|____ eda_summary.json
+|
+|____ README.md
+
+
 How to Run (Jupyter Notebook)
 This program was developed using Jupyter Notebooks.
 Open Jupyter Notebook or JupyterLab.
@@ -68,7 +94,7 @@ Learning Outcome - Salary Function
 * Cross-language operations (Python vs R)
 * Working with Libraries, and Data Structures
 
-Final Putcome _Policy_ MAnagement _System
+Final Outcome _Policy_ MAnagement _System
 Final Outcome
 The Policy Payment System is a  fully functional billing lifecycle application demonstrating:
 Object-Oriented Programming
@@ -76,8 +102,15 @@ Clean Architecture
 Dynamic business rules
 UI-to-service separation
 Real-world invoice and  penalty handling
-
 It is a foundation for a production billing syste
+
+Key Insights Netflix data visualization projecrt
+
+Netflix host more movies than TV shows
+Content additions accelerated after 2015
+The United States dominates production
+Drama is the most common genre
+
 
 Output
 See attached Zip files for each of the outputs
