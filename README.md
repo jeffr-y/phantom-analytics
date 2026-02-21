@@ -10,6 +10,7 @@ Payroll Processing System in both Python and R
 Salary Function project
 Policy_Management_System
 Netflix_Data_Visualization_Project
+Principal_component_Analysis_project
 
 Requirements
 Jupyter Notebook or JupyterLab
@@ -70,6 +71,39 @@ Project/
 |
 |____ README.md
 
+Folder Structure
+principal_component_analysis_project/
+|
+|___Notebooks/
+|   |
+|   |___ 1_pca_essential_variables.ipynb
+|   |___ 2_pca_dimentioanlity_reduction.ipynb
+|   |___ 3_Logistic_regression.ipynb
+|   |___ 4_feature_contribution.ipynb
+|   |___ 5_visual5ization.ipynb
+|   |___ 6_ R diverging bar chat visualization
+|
+|
+|___ pca_utils.py
+|
+|
+|___ pca_outputs/
+|   |
+|   |__Pca_results.xlsx
+|
+|___ model_outputs/
+|   |
+|   |__model_results.xlsx
+|   |__ top10_features.xlsx
+|
+|___figures/
+    |
+    |__pca_explained_variance.png
+    |__2d_pca_breast_cancer_dataset.png
+    |__logreg_decision_boundary.png
+    |__top10_feature_contributions.png
+    |__top10_feature_contributions_R.png
+
 
 How to Run (Jupyter Notebook)
 This program was developed using Jupyter Notebooks.
@@ -110,6 +144,31 @@ Netflix host more movies than TV shows
 Content additions accelerated after 2015
 The United States dominates production
 Drama is the most common genre
+
+Key Insights: Principal Component Analysis project
+
+PCA reveals the most influential features in the breast cancer dataset.
+Two principal components capture a large portion of the variance.
+Logistic Regression on PCA-reduced data achieves high accuracy
+Feature back-mapping identifies the original variables driving classification decisions
+
+Final Notes: Principal Component Analysis project
+
+This Modular design ensures:
+
+No accidental overwriting
+Clean separation of PCA, modeling, and interpretability
+Reproducibility across all notebooks
+Professional, presentation-ready outputs
+
+The Project supports
+
+Python-based PCA and modeling
+Python-based figure generation
+R-based interpretability visualization
+Clean separation of outputs across folders
+A fully reproducible, multi-language analytics workflow
+
 
 
 Output
