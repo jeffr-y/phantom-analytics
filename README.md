@@ -11,6 +11,7 @@ Salary Function project
 Policy_Management_System
 Netflix_Data_Visualization_Project
 Principal_component_Analysis_project
+Fashion_MNIST_Convolutional_Neural_Network_Classification_(CNN)
 
 Requirements
 Jupyter Notebook or JupyterLab
@@ -104,6 +105,25 @@ principal_component_analysis_project/
     |__top10_feature_contributions.png
     |__top10_feature_contributions_R.png
 
+CNN Architecture (Both implementations: Python and R)
+
+The model contains 6 layers:
+
+•	1 Conv2D (32 filters, ReLU)
+•	2 Conv2D (64 filters, ReLU)
+•	3 MaxPooling @D
+•	4 Flatten
+•	5 Dense (128 units, ReLU)
+•	6 Dense(10 units, Softmax
+
+Loss Function:
+
+•	sparse_categorical_crossentropy
+
+Optimizer:
+
+•	Adam
+
 
 How to Run (Jupyter Notebook)
 This program was developed using Jupyter Notebooks.
@@ -161,6 +181,22 @@ Clean separation of PCA, modeling, and interpretability
 Reproducibility across all notebooks
 Professional, presentation-ready outputs
 
+Key Features- Pashion MNIST
+
+•	Fully automated execution
+•	Folder auto-creation
+•	Clean confusion matrix (no missing levels)
+•	Single Excel workbook per implementation
+•	Reproducible workflow
+•	Submission-ready output
+•	Portfolio Value
+•	This project demonstrates:
+•	Deep Learning (NN)
+•	Model evaluation best practices
+•	Cross-language implementation (Python + R
+•	Reproducible ML workflows
+•	Automated reporting pipelines
+•	Clean experiment organizations
 The Project supports
 
 Python-based PCA and modeling
